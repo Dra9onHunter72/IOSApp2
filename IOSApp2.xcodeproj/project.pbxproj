@@ -47,9 +47,19 @@
 		7BCCD1541F8D3D2600BC4771 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				7BD743EE1F8D3BB6001ACB88 /* Assets.xcassets */,
 				7BD743F31F8D3BB6001ACB88 /* Info.plist */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		7BCCD1551F8D4DF700BC4771 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7BD743F01F8D3BB6001ACB88 /* LaunchScreen.storyboard */,
+				7BD743EB1F8D3BB6001ACB88 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		7BD743DB1F8D3BB6001ACB88 = {
@@ -72,9 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				7BCCD1531F8D3CFC00BC4771 /* Controller */,
-				7BD743EB1F8D3BB6001ACB88 /* Main.storyboard */,
-				7BD743EE1F8D3BB6001ACB88 /* Assets.xcassets */,
-				7BD743F01F8D3BB6001ACB88 /* LaunchScreen.storyboard */,
+				7BCCD1551F8D4DF700BC4771 /* View */,
 				7BCCD1541F8D3D2600BC4771 /* Settings */,
 			);
 			path = IOSApp2;
