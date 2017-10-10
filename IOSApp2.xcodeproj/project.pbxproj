@@ -35,6 +35,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BCCD1531F8D3CFC00BC4771 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7BD743E71F8D3BB6001ACB88 /* AppDelegate.swift */,
+				7BD743E91F8D3BB6001ACB88 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7BCCD1541F8D3D2600BC4771 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7BD743F31F8D3BB6001ACB88 /* Info.plist */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		7BD743DB1F8D3BB6001ACB88 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +71,11 @@
 		7BD743E61F8D3BB6001ACB88 /* IOSApp2 */ = {
 			isa = PBXGroup;
 			children = (
-				7BD743E71F8D3BB6001ACB88 /* AppDelegate.swift */,
-				7BD743E91F8D3BB6001ACB88 /* ViewController.swift */,
+				7BCCD1531F8D3CFC00BC4771 /* Controller */,
 				7BD743EB1F8D3BB6001ACB88 /* Main.storyboard */,
 				7BD743EE1F8D3BB6001ACB88 /* Assets.xcassets */,
 				7BD743F01F8D3BB6001ACB88 /* LaunchScreen.storyboard */,
-				7BD743F31F8D3BB6001ACB88 /* Info.plist */,
+				7BCCD1541F8D3D2600BC4771 /* Settings */,
 			);
 			path = IOSApp2;
 			sourceTree = "<group>";
@@ -275,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSApp2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IOSApp2/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.IOSApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IOSApp2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IOSApp2/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.IOSApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
