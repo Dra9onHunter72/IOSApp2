@@ -15,10 +15,11 @@ class ViewController: UIViewController
     
     @IBAction func FirstMethod(_ sender: UIButton)
     {
-            FirstButton.backgroundColor = createRandomColor()
             view.backgroundColor = createRandomColor()
+            FirstButton.backgroundColor = createRandomColor()
             FirstButton.setTitleColor(createRandomColor(), for: .normal)
     }
+
     
     private func createRandomColor() -> UIColor
     {
@@ -41,7 +42,14 @@ class ViewController: UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBOutlet weak var Stepper1: UIStepper!
+    
+    
+    @IBAction func Stepper1(_ sender: Any)
+    {
+    let colors = [UIColor.red, UIColor.yellow, UIColor.orange, UIColor.blue, UIColor.green, UIColor.purple]
+    view.backgroundColor = colors[Int (Stepper1.value)]
+    }
 }
 
