@@ -49,8 +49,10 @@ class ViewController: UIViewController
     
     @IBAction func Stepper1(_ sender: Any)
     {
-    let colors = [UIColor.red, UIColor.yellow, UIColor.orange, UIColor.blue, UIColor.green, UIColor.purple]
+    let colors = [UIColor.red, UIColor.orange, UIColor.yellow, UIColor.blue, UIColor.green, UIColor.purple]
     view.backgroundColor = colors[Int (Stepper1.value)]
     }
+    
+    
 }
 
