@@ -24,7 +24,7 @@
                                     <color key="titleColor" red="1" green="0.41819983799999999" blue="0.090293447760000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="FirstMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6ii-Vk-4Ib"/>
+                                    <action selector="FirstMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y6x-CZ-In2"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Color Changer App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VEx-dD-KGX">
@@ -46,6 +46,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="FirstButton" destination="4fW-39-Zdp" id="cem-HS-jHt"/>
                         <outlet property="Stepper1" destination="42v-ig-IQe" id="Wtb-qV-TQi"/>
                     </connections>
                 </viewController>
