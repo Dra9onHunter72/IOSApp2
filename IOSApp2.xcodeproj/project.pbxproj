@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B878A7B1F8FF546006CE46B /* SecondScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B878A7A1F8FF546006CE46B /* SecondScreenController.swift */; };
+		7B878A7E1F8FF9AE006CE46B /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B878A7D1F8FF9AE006CE46B /* ColorTools.swift */; };
 		7BD743E81F8D3BB6001ACB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD743E71F8D3BB6001ACB88 /* AppDelegate.swift */; };
 		7BD743EA1F8D3BB6001ACB88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD743E91F8D3BB6001ACB88 /* ViewController.swift */; };
 		7BD743ED1F8D3BB6001ACB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD743EB1F8D3BB6001ACB88 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		7B878A7A1F8FF546006CE46B /* SecondScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenController.swift; sourceTree = "<group>"; };
+		7B878A7D1F8FF9AE006CE46B /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		7BD743E41F8D3BB6001ACB88 /* IOSApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD743E71F8D3BB6001ACB88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BD743E91F8D3BB6001ACB88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B878A7C1F8FF989006CE46B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B878A7D1F8FF9AE006CE46B /* ColorTools.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		7BCCD1531F8D3CFC00BC4771 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 		7BD743E61F8D3BB6001ACB88 /* IOSApp2 */ = {
 			isa = PBXGroup;
 			children = (
+				7B878A7C1F8FF989006CE46B /* Model */,
 				7BCCD1531F8D3CFC00BC4771 /* Controller */,
 				7BCCD1551F8D4DF700BC4771 /* View */,
 				7BCCD1541F8D3D2600BC4771 /* Settings */,
@@ -166,6 +177,7 @@
 				7BD743EA1F8D3BB6001ACB88 /* ViewController.swift in Sources */,
 				7BD743E81F8D3BB6001ACB88 /* AppDelegate.swift in Sources */,
 				7B878A7B1F8FF546006CE46B /* SecondScreenController.swift in Sources */,
+				7B878A7E1F8FF9AE006CE46B /* ColorTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
