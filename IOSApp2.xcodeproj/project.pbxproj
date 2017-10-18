@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B8663031F97C9E700BCD788 /* MediaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8663021F97C9E700BCD788 /* MediaController.swift */; };
 		7B878A7B1F8FF546006CE46B /* SecondScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B878A7A1F8FF546006CE46B /* SecondScreenController.swift */; };
 		7B878A7E1F8FF9AE006CE46B /* ColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B878A7D1F8FF9AE006CE46B /* ColorTools.swift */; };
 		7BD743E81F8D3BB6001ACB88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD743E71F8D3BB6001ACB88 /* AppDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B8663021F97C9E700BCD788 /* MediaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaController.swift; sourceTree = "<group>"; };
 		7B878A7A1F8FF546006CE46B /* SecondScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenController.swift; sourceTree = "<group>"; };
 		7B878A7D1F8FF9AE006CE46B /* ColorTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTools.swift; sourceTree = "<group>"; };
 		7BD743E41F8D3BB6001ACB88 /* IOSApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +55,7 @@
 				7BD743E71F8D3BB6001ACB88 /* AppDelegate.swift */,
 				7BD743E91F8D3BB6001ACB88 /* ViewController.swift */,
 				7B878A7A1F8FF546006CE46B /* SecondScreenController.swift */,
+				7B8663021F97C9E700BCD788 /* MediaController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				7BD743E81F8D3BB6001ACB88 /* AppDelegate.swift in Sources */,
 				7B878A7B1F8FF546006CE46B /* SecondScreenController.swift in Sources */,
 				7B878A7E1F8FF9AE006CE46B /* ColorTools.swift in Sources */,
+				7B8663031F97C9E700BCD788 /* MediaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
