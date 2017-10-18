@@ -67,34 +67,29 @@
         <!--Media Controller-->
         <scene sceneID="kfO-6L-JXW">
             <objects>
-                <viewController id="nUg-IP-3wb" customClass="MediaController" sceneMemberID="viewController">
+                <viewController id="nUg-IP-3wb" customClass="MediaController" customModule="IOSApp2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ftc-rD-Uif">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kna-Dj-qBF">
-                                <rect key="frame" x="67" y="20" width="240" height="128"/>
+                                <rect key="frame" x="94" y="45" width="240" height="260"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zUW-Qe-s5p">
-                                <rect key="frame" x="67" y="142" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2oX-oq-EUs">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="QGv-AX-4Fc">
-                                <rect key="frame" x="128" y="405" width="118" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BH-Kx-dki">
-                                <rect key="frame" x="164" y="455" width="46" height="30"/>
+                                <rect key="frame" x="191" y="369" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="imageButtonClick:" destination="nUg-IP-3wb" eventType="touchUpInside" id="2qp-FI-YaR"/>
+                                </connections>
                             </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="QGv-AX-4Fc">
+                                <rect key="frame" x="155" y="319" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pau-ur-Hqv">
-                                <rect key="frame" x="164" y="525" width="46" height="30"/>
+                                <rect key="frame" x="191" y="447" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
@@ -102,10 +97,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="gCQ-Zl-2fW"/>
                     </view>
+                    <connections>
+                        <outlet property="ImageButtonClick" destination="9BH-Kx-dki" id="zlM-by-QWu"/>
+                        <outlet property="SoundButton" destination="Pau-ur-Hqv" id="HOd-r1-SzC"/>
+                        <outlet property="SoundSlider" destination="QGv-AX-4Fc" id="qyZ-s4-bFB"/>
+                        <outlet property="ViewImage" destination="Kna-Dj-qBF" id="6Ue-8m-pye"/>
+                        <outlet property="imageButtonClick" destination="9BH-Kx-dki" id="fGl-9L-Ydy"/>
+                        <outlet property="playAudio" destination="9BH-Kx-dki" id="EGg-bh-00G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ox3-aU-HTi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-90" y="779"/>
+            <point key="canvasLocation" x="-90.400000000000006" y="778.56071964017997"/>
         </scene>
         <!--Second Screen Controller-->
         <scene sceneID="xWr-Vb-McD">
