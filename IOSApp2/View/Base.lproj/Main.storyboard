@@ -77,9 +77,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BH-Kx-dki">
-                                <rect key="frame" x="191" y="369" width="46" height="30"/>
+                                <rect key="frame" x="159" y="367" width="111" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Change Image"/>
                                 <connections>
                                     <action selector="imageButtonClick:" destination="nUg-IP-3wb" eventType="touchUpInside" id="2qp-FI-YaR"/>
                                 </connections>
@@ -89,21 +89,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pau-ur-Hqv">
-                                <rect key="frame" x="191" y="447" width="46" height="30"/>
+                                <rect key="frame" x="182" y="413" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Play/Stop"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="gCQ-Zl-2fW"/>
                     </view>
                     <connections>
-                        <outlet property="ImageButtonClick" destination="9BH-Kx-dki" id="zlM-by-QWu"/>
                         <outlet property="SoundButton" destination="Pau-ur-Hqv" id="HOd-r1-SzC"/>
                         <outlet property="SoundSlider" destination="QGv-AX-4Fc" id="qyZ-s4-bFB"/>
                         <outlet property="ViewImage" destination="Kna-Dj-qBF" id="6Ue-8m-pye"/>
                         <outlet property="imageButtonClick" destination="9BH-Kx-dki" id="fGl-9L-Ydy"/>
-                        <outlet property="playAudio" destination="9BH-Kx-dki" id="EGg-bh-00G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ox3-aU-HTi" userLabel="First Responder" sceneMemberID="firstResponder"/>
