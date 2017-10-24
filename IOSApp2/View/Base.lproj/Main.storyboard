@@ -81,27 +81,33 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Change Image"/>
                                 <connections>
-                                    <action selector="imageButtonClick:" destination="nUg-IP-3wb" eventType="touchUpInside" id="2qp-FI-YaR"/>
+                                    <action selector="imageButtonClick" destination="nUg-IP-3wb" eventType="touchUpInside" id="afl-mW-aPY"/>
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="QGv-AX-4Fc">
                                 <rect key="frame" x="155" y="319" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderMethod" destination="nUg-IP-3wb" eventType="valueChanged" id="7LP-8X-HIV"/>
+                                </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pau-ur-Hqv">
                                 <rect key="frame" x="182" y="413" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play/Stop"/>
+                                <connections>
+                                    <action selector="soundButtonClick" destination="nUg-IP-3wb" eventType="touchUpInside" id="gz6-mm-jI5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="gCQ-Zl-2fW"/>
                     </view>
                     <connections>
-                        <outlet property="SoundButton" destination="Pau-ur-Hqv" id="HOd-r1-SzC"/>
-                        <outlet property="SoundSlider" destination="QGv-AX-4Fc" id="qyZ-s4-bFB"/>
-                        <outlet property="ViewImage" destination="Kna-Dj-qBF" id="6Ue-8m-pye"/>
-                        <outlet property="imageButtonClick" destination="9BH-Kx-dki" id="fGl-9L-Ydy"/>
+                        <outlet property="imageButton" destination="9BH-Kx-dki" id="19f-rm-gR6"/>
+                        <outlet property="soundButton" destination="Pau-ur-Hqv" id="z8d-XD-mQX"/>
+                        <outlet property="soundSlider" destination="QGv-AX-4Fc" id="U2P-nH-ul6"/>
+                        <outlet property="viewImage" destination="Kna-Dj-qBF" id="2HJ-ke-Vqg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ox3-aU-HTi" userLabel="First Responder" sceneMemberID="firstResponder"/>
